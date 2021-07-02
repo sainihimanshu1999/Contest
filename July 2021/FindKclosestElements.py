@@ -7,7 +7,7 @@ def kclosestelement(arr,k,x):
     right = len(arr)-k
 
     while left<right:
-        mid = left+(right-left)//2
+        mid = (left+right)//2
 
         if x<=arr[mid]:
             right = mid
