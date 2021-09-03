@@ -36,7 +36,7 @@ def arrayNesting2(nums):
         nonlocal result
         nonlocal visited
 
-        if nums[index] in visited:
+        if nums[index] not in visited:
             result = max(result,length)
 
 
